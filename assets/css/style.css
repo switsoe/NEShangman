@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+body {
+    color: red;
+    font-family: "Press Start 2P";
+    background-color: rgba(128, 128, 128, 0.555)
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    text-outline: 10px 10px black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+nav {
+    padding-bottom: 2em;
+}
+
+#guessed-letters {
+    padding-bottom: 4em;
+}
+
+/* 
+br {
+    color: black;
+} */    
