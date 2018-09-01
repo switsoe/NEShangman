@@ -8,21 +8,32 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     text-outline: 10px 10px black;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    margin: 0em
+}
+
+.instructions {
+    text-align: center;
+    animation:blinkingText .5s infinite;
+}
+
+@keyframes blinkingText{
+    0%{     color: red;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: red;    }
 }
 
 nav {
-    padding-bottom: 2em;
+    /* padding-bottom: 2em; */
+    
 }
 
 #guessed-letters {
     padding-bottom: 4em;
 }
 
-/* 
-br {
-    color: black;
-} */    
